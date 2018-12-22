@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-const TodoItemView = (props) => (
+const TodoItemView = props => (
   <div className="todo-item-card" draggable>
-		Todo Item
-	</div>
+    Todo Item
+  </div>
 )
 
-export default TodoItemView;
+export default TodoItemView

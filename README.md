@@ -16,3 +16,6 @@ npm i @babel/core @babel/plugin-proposal-class-properties @babel/preset-env @bab
 
 6. Install react-fontawesome
  npm i --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+
+ 7. Setup Jest
+ npm i --save-dev jest babel-jest react-test-renderer

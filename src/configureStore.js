@@ -1,6 +1,6 @@
-import { createStore, applyMiddleware } from 'redux';
-import todoApp from './reducers';
-import { createEpicMiddleware } from 'redux-observable';
+import { createStore, applyMiddleware } from 'redux'
+import todoApp from './reducers'
+import { createEpicMiddleware } from 'redux-observable'
 // import { rootEpic, rootReducer } from './modules/root';
 
 // const epicMiddleware = createEpicMiddleware();
@@ -16,5 +16,5 @@ import { createEpicMiddleware } from 'redux-observable';
 //   return store;
 // }
 
-const store = createStore(todoApp);
-export default store;
+const store = createStore(todoApp)
+export default store

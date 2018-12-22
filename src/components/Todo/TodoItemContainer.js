@@ -1,17 +1,12 @@
-import React from 'react';
-import TodoItemView from './TodoItemView';
+import React from 'react'
+import TodoItemView from './TodoItemView'
 
 export default class TodoContainer extends React.Component {
-
   constructor(props) {
-    super(props);
+    super(props)
   }
 
-  
-
   render() {
-    return(
-      <TodoItemView />
-    );
+    return <TodoItemView />
   }
 }
